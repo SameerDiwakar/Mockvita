@@ -76,7 +76,7 @@ int main() {
 
     unordered_map<string, int> memo;
 
-    cout << getMinOrbs(targetPotion, allRecipes, memo) << endl;
+    cout << getMinOrbs(targetPotion, allRecipes, memo);
 
     return 0;
 }
